@@ -1,6 +1,6 @@
 
 # wrangler.toml
-name = "SCANTY-MD BOT"                    # ← Change this to your Pages project name
+name = "scanty-md"                    # ← Change this to your Pages project name
 pages_build_output_dir = "./dist"             # ← Change this to your actual build output folder
 compatibility_date = "2024-09-23"
 
