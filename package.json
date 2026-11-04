@@ -1,6 +1,7 @@
 {
   "name": "scanty-md-pair-code",
   "version": "1.0.0",
+  "description": "Pairing code generator for SCANTY MD BOT",
   "main": "index.js",
   "scripts": {
     "start": "node pair.js",
@@ -9,21 +10,16 @@
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "awesome-phonenumber": "^7.2.0",
+    "body-parser": "^1.20.9",
+    "cors": "^2.8.6",
     "express": "^4.22.3",
-    "pino": "^9.5.0"
-  }
-  },
-    "awesome-phonenumber": "7.2.0",
-    "body-parser": "^1.20.3",
-    "cors": "^2.8.5",
-    "express": "^4.21.2",
-    "megajs": "^1.3.9",
-    "path": "^0.12.7",
-    "phone": "3.1.55",
-    "pino": "9.5.0",
+    "megajs": "^1.3.10",
+    "pino": "^9.5.0",
     "qrcode": "^1.5.4",
     "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.114.17"
   }
 }
-
-  
