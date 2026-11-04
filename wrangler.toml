@@ -1,7 +1,10 @@
+	
+NAME;  ACCOUNT-ID
+VALUE;  B473997abe8e0382b3a1428b54539881
 
 # wrangler.toml
-name = "scanty-md"                    # ← Change this to your Pages project name
-pages_build_output_dir = "./dist"             # ← Change this to your actual build output folder
+name = "scanty-md"                    
+pages_build_output_dir = "./dist"             
 compatibility_date = "2024-09-23"
 
 # Optional but recommended
