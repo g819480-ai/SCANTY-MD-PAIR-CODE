@@ -1,9 +1,7 @@
-	
-NAME;  ACCOUNT-ID
-VALUE;  B473997abe8e0382b3a1428b54539881
+
 
 # wrangler.toml
-name = "scanty-md"                    
+name = "scanty-md-pair-code"                    
 pages_build_output_dir = "./dist"             
 compatibility_date = "2024-09-23"
 
@@ -12,7 +10,8 @@ compatibility_flags = []
 
 # Environment variables (optional)
 [vars]
-# EXAMPLE_API_KEY = "your-value"
+# NAME; = "ACCOUNT-ID"
+# VALUE; "B473997abe8e0382b3a1428b54539881"
 # NODE_VERSION = "20"
 
 # KV Namespace binding (optional)
