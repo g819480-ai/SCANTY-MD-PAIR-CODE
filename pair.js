@@ -31,7 +31,7 @@ async function generateShortSession(credsPath) {
         // Generate session ID with prefix
         const y = new Date().getFullYear();
         const r = Math.random().toString(36).substring(2, 6).toUpperCase();
-        const sessionId = `KIRA-MD~`;
+        const sessionId = `SCANTY-MD~`;
         
         // Return both session ID and encoded data
         return {
@@ -121,11 +121,11 @@ const fakeVCardQuoted = {
   },
   message: {
     contactMessage: {
-      displayName: "© KIRA-MD",
+      displayName: "© SCANTY-MD",
       vcard: `BEGIN:VCARD
 VERSION:3.0
-FN:© KIRA-MD
-ORG:ArslanMD Official;
+FN:© SCANTY-MD
+ORG:SCANTY MD Official;
 TEL;type=CELL;type=VOICE;waid=13135550002:+13135550002
 END:VCARD`
     }
@@ -134,9 +134,9 @@ END:VCARD`
 
 // ---- Caption (alive.js style bot details) ----
 const caption = `
-╭━〔 *ᴀʀꜱʟᴀɴ-xᴍᴅ* 〕━··๏
+╭━〔 *SCANTY-xᴍᴅ* 〕━··๏
 ┃★╭──────────────
-┃★│ 👑 Owner : *ArslanMD Official*
+┃★│ 👑 Owner : *SCANTY MD Official*
 ┃★│ 🤖 Baileys : *Multi Device*
 ┃★│ 💻 Type : *NodeJs*
 ┃★│ 🚀 Platform : *Render*
@@ -240,4 +240,4 @@ process.on("unhandledRejection", (err) => {
 
 export default router;
 
-//coded by ArslanMD Official 🇵🇰 
+//coded by SCANTY - MD Official 🇵🇰 
