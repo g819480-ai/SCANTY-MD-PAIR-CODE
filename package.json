@@ -1,7 +1,18 @@
- ,
+{
+  "name": "scanty-md-pair-code",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "echo 'No build step required'"
+    "start": "node pair.js",
+    "build": "echo 'No build step required'",
+    "deploy": "wrangler pages deploy ."
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "express": "^4.22.3",
+    "pino": "^9.5.0"
+  }
+
   },
   "author": "SCANTY-MD",
   "license": "ISC",
