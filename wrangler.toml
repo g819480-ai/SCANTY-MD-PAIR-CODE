@@ -1,2 +1,29 @@
+
 # wrangler.toml
-name = 'scanty-md-pair-code'
+name = "SCANTY-MD BOT"                    # ← Change this to your Pages project name
+pages_build_output_dir = "./dist"             # ← Change this to your actual build output folder
+compatibility_date = "2024-09-23"
+
+# Optional but recommended
+compatibility_flags = []
+
+# Environment variables (optional)
+[vars]
+# EXAMPLE_API_KEY = "your-value"
+# NODE_VERSION = "20"
+
+# KV Namespace binding (optional)
+# [[kv_namespaces]]
+# binding = "MY_KV"
+# id = "your-kv-namespace-id"
+
+# D1 Database binding (optional)
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "SCANTY-MD"
+# database_id = "SCANTY-MD@123"
+
+# R2 Bucket binding (optional)
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "your-bucket-name"
