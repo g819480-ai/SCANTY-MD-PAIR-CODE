@@ -10,8 +10,8 @@
   "devDependencies": {
     "wrangler": "^3.90.0"
   }
-}
-  },
+  
+  ,
   "scripts": {
     "start": "node index.js",
     "build": "echo 'No build step required'"
