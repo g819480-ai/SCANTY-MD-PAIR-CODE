@@ -1,3 +1,5 @@
-name = "scanty-md-pair"
-pages_build_output_dir = "."
-compatibility_date = "2026-11-04"
+# ...
+[vars]
+ACCOUNT-ID = "473997abe8e0382b3a1428b54539881"
+ACCOUNT-NAME = "G819480@gmail.com's Account"
+# ...
